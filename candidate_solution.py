@@ -9,14 +9,6 @@ import asyncio
 from difflib import get_close_matches
 
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-    filename="app.log",   # Writes to file
-    filemode="a"          # Append mode
-)
-
-logger = logging.getLogger("pokemon_api")
 
 # --- Constants ---
 DB_NAME = "pokemon_assessment.db"
